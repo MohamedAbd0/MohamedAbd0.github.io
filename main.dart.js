@@ -63399,7 +63399,7 @@ G(a){var s=null,r=t.w,q=a.M(r).f.a.b
 r=a.M(r).f
 return A.cn(s,A.AT(A.dt(A.a([B.KX,A.DS(!1,s,!0,B.KV,s,!0,s,s,s,s,s,s,s,s,s,new A.Vv(),s,s,s,s)],t.p),B.z,B.bZ),s,s),s,s,q*0.07,new A.b9(0,q*0.05,0,0),s,r.a.a)}}
 A.Vv.prototype={
-$0(){return A.A0(A.i9("https://github.com/mhmzdev/DevFolio",0,null))},
+$0(){return A.A0(A.i9("https://github.com/mohamedabd0",0,null))},
 $S:0}
 A.p_.prototype={
 G(a){var s,r,q=null,p=A.eO(a,!0,t.At),o=$.mO
