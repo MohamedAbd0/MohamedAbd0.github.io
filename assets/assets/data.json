@@ -1,0 +1,617 @@
+{
+  "name": "Mohamed Abdo Elnashar",
+  "email": "mohamed_abdo95@outlook.com",
+  "sectionTitles": {
+    "about": {
+      "main": "About Me",
+      "sub": "Senior Flutter Developer",
+      "description": "Get to know more about my background, skills, and journey"
+    },
+    "services": {
+      "main": "What I Can Do",
+      "sub": "Professional Services & Expertise",
+      "description": "I may not be perfect but surely I'm of some use :)"
+    },
+    "portfolio": {
+      "main": "My Portfolio",
+      "sub": "Featured Projects & Applications",
+      "description": "Showcase of my recent work and technical achievements"
+    },
+    "projects": {
+      "main": "Projects",
+      "sub": "Here are a few of the projects I've worked on",
+      "description": "A showcase of my development projects and contributions"
+    },
+    "packages": {
+      "main": "Flutter Packages",
+      "sub": "Open Source Contributions on pub.dev",
+      "description": "Published packages helping thousands of developers worldwide"
+    },
+    "work": {
+      "main": "Work Experience",
+      "sub": "My Professional Journey & Career Milestones",
+      "description": "Professional experience and career progression"
+    },
+    "openSource": {
+      "main": "Open Source Projects",
+      "sub": "Community Contributions & Public Repositories",
+      "description": "Contributing to the open source community"
+    },
+    "certifications": {
+      "main": "Certifications & Achievements",
+      "sub": "Professional Development & Recognition",
+      "description": "Industry certifications and professional achievements"
+    },
+    "cv": {
+      "main": "Curriculum Vitae",
+      "sub": "Professional Experience & Achievements",
+      "description": "Comprehensive overview of my professional background"
+    },
+    "contact": {
+      "main": "Get In Touch",
+      "sub": "Let's Build Something Together",
+      "description": "Ready to start your next project? Let's discuss!"
+    }
+  },
+  "homeSection": {
+    "welcomeText": "WELCOME TO MY PORTFOLIO",
+    "firstName": "Mohamed",
+    "lastName": "Abdo",
+    "introText": "I'm Mohamed",
+    "animatedTitles": [
+      "Senior Flutter Developer",
+      "Blockchain Researcher",
+      "Technical Writer",
+      "Verified pub.dev Publisher",
+      "14K+ LinkedIn Followers"
+    ],
+    "description": "Passionate about creating exceptional mobile experiences with Flutter. I specialize in building scalable, performance-optimized applications that delight users and drive business growth.",
+    "mobileDescription": "Creating exceptional mobile experiences with cutting-edge Flutter technology.",
+    "ctaButtons": {
+      "primary": {
+        "text": "View My Work",
+        "action": "portfolio"
+      },
+      "secondary": {
+        "text": "Get In Touch",
+        "action": "contact"
+      }
+    },
+    "socialLinksText": "Connect with me"
+  },
+  "subtitles": [
+    "Senior Flutter Developer",
+    "14K+ LinkedIn Followers",
+    "Verified pub.dev Publisher",
+    "Technical Writer",
+    "Open Source Contributor"
+  ],
+  "blackWhitePhotoURL": "assets/photos/black-white.png",
+  "coloredPhotoURL": "assets/photos/colored.png",
+  "socialLinks": [
+    {
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/in/mohamed-abdo95/",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/500px-LinkedIn_logo_initials.png"
+    },
+    {
+      "platform": "github",
+      "url": "https://github.com/MohamedAbd0",
+      "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+    },
+    {
+      "platform": "medium",
+      "url": "https://medium.com/@mohamed-abdo",
+      "icon": "https://images.icon-icons.com/3041/PNG/512/medium_logo_icon_189223.png"
+    },
+    {
+      "platform": "stackoverflow",
+      "url": "https://stackoverflow.com/users/10301565/mohamed-abdo",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/2048px-Stack_Overflow_icon.svg.png"
+    },
+    {
+      "platform": "pubdev",
+      "url": "https://pub.dev/publishers/mohamed-abdo.com/packages",
+      "icon": "https://img.icons8.com/fluency/384/ffffff/flutter.png"
+    },
+    {
+      "platform": "google-developer",
+      "url": "https://g.dev/MohamedAbdo",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/6/64/Google_Developers_icon_2020.png"
+    }
+  ],
+  "aboutMeHeadline": "I'm Mohamed Abdo Elnashar, a Senior Flutter Developer with 6+ years of experience, specializing in cross-platform mobile applications, and Web3/blockchain solutions.",
+  "aboutMeDetails": "Currently working as a Senior Flutter Developer at Dscale.io in Dubai, UAE, developing cutting-edge e-commerce (Ayshei) and fintech (XFI Send Money) applications. I'm a verified pub.dev publisher with 10 published packages serving thousands of developers globally. With 14K+ LinkedIn followers, I'm recognized as a thought Senior in the Flutter community. I hold expertise in UAE government services integration (UAE Pass, Emirates ID), healthcare systems, sports management platforms, and blockchain/Web3 development. Currently pursuing a Master's degree while contributing to open-source projects and writing technical articles with 260+ Medium followers.",
+  "personalInfo": [
+    {
+      "title": "Date of birth",
+      "value": "20 December, 1995"
+    },
+    {
+      "title": "Nationality",
+      "value": "Egyptian"
+    },
+    {
+      "title": "Location",
+      "value": "Dubai, UAE"
+    },
+    {
+      "title": "Languages",
+      "value": "Arabic, English"
+    }
+  ],
+  "education": [
+    {
+      "title": "Master's degree in Computer Science",
+      "value": "Faculty of computer & information sciences, Mansoura university ( 2020 - Present )"
+    },
+    {
+      "title": "Bachelor's degree in Computer Science",
+      "value": "Faculty of computer & information sciences, Mansoura university ( 10/2014 - 08/2018 )"
+    }
+  ],
+
+  "skillCategories": {
+    "Mobile Development": [
+      "Flutter",
+      "Dart",
+      "Native Android (Kotlin/Java)",
+      "Native iOS (Swift)",
+      "Provider",
+      "Bloc/Cubit",
+      "GetX",
+      "Riverpod",
+      "Clean Architecture",
+      "MVVM"
+    ],
+    "Backend & Web": [
+      "ASP.NET Core",
+      "Node.js",
+      "Express.js",
+      "C#",
+      "Python",
+      "RESTful APIs",
+      "GraphQL"
+    ],
+    "Payment & Fintech": [
+      "Stripe",
+      "Checkout",
+      "PayPal",
+      "Apple Pay",
+      "In App Purchases",
+      "Leen",
+      "Ziina",
+      "Rocketfuel"
+    ],
+    "Blockchain & Web3": [
+      "Solidity",
+      "Ethereum",
+      "Smart Contracts",
+      "DApp Development"
+    ],
+    "Cloud & Integrations": [
+      "AWS",
+      "Google Cloud Platform",
+      "Firebase",
+      "Docker",
+      "CI/CD",
+      "MongoDB",
+      "PostgreSQL",
+      "WebSocket",
+      "SignalR",
+      "Agora SDK",
+      "UAE Pass Integration"
+    ]
+  },
+  "bioHighlights": [
+    {
+      "label": "🚀 6+ Years Experience",
+      "icon": "timeline"
+    },
+    {
+      "label": "🔥 14K+ LinkedIn Followers",
+      "icon": "people"
+    },
+    {
+      "label": "📦 10 Pub.dev Packages",
+      "icon": "extension"
+    },
+    {
+      "label": "⭐ 223 GitHub Stars",
+      "icon": "star"
+    },
+    {
+      "label": "🏆 Arctic Code Vault",
+      "icon": "emoji_events"
+    },
+    {
+      "label": "✍️ 260+ Medium Followers",
+      "icon": "article"
+    },
+    {
+      "label": "🏅 GitHub Dev Program",
+      "icon": "verified"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Google Analytics Certification",
+      "issuer": "Google Digital Academy (Skillshop)",
+      "issueDate": "Aug 2023",
+      "expiryDate": "Aug 2024",
+      "credentialId": "79773073",
+      "category": "Digital Marketing",
+      "description": "Professional certification in Google Analytics covering web analytics, data interpretation, and digital marketing insights.",
+      "skills": [
+        "Google Analytics",
+        "Web Analytics",
+        "Digital Marketing",
+        "Data Analysis"
+      ],
+      "imageUrl": "assets/certifications/Google Analytics Certification.png",
+      "certificationUrl": "https://skillshop.credential.net/7b524409-5ae6-49b6-8fe4-37580c25cee3#acc.k7ZruAjv"
+    },
+    {
+      "title": "Google Play Academy - Store Listing Certificate",
+      "issuer": "Google Play",
+      "issueDate": "Aug 2023",
+      "expiryDate": "Aug 2025",
+      "credentialId": "79771064",
+      "category": "Mobile Development",
+      "description": "Certification in Google Play Store optimization, app listing best practices, and Play Console management.",
+      "skills": [
+        "Google Play Console",
+        "App Store Optimization",
+        "Mobile Publishing",
+        "ASO"
+      ],
+      "imageUrl": "assets/certifications/Google Play Store Listing Certificate.png",
+      "certificationUrl": "https://www.credential.net/cf018a99-e630-435e-a0be-c5a1e29fb521"
+    },
+    {
+      "title": "Flutter Development",
+      "issuer": "Google",
+      "issueDate": "Aug 2023",
+      "credentialId": "4663058",
+      "category": "Mobile Development",
+      "description": "Comprehensive Flutter development certification covering advanced mobile app development, state management, and cross-platform deployment.",
+      "skills": ["Flutter", "Dart", "Mobile Development", "Cross-platform"],
+      "imageUrl": "",
+      "certificationUrl": "https://www.cloudskillsboost.google/public_profiles/04e033df-685e-4c0e-80e3-ff5060242748/badges/4663058"
+    },
+    {
+      "title": "Flutter Essentials",
+      "issuer": "Google",
+      "issueDate": "Aug 2023",
+      "credentialId": "4663218",
+      "category": "Mobile Development",
+      "description": "Essential Flutter concepts including widgets, navigation, and app architecture fundamentals.",
+      "skills": ["Flutter", "Widgets", "Navigation", "Architecture"],
+      "imageUrl": "",
+      "certificationUrl": "https://www.cloudskillsboost.google/public_profiles/04e033df-685e-4c0e-80e3-ff5060242748/badges/4663218"
+    },
+    {
+      "title": "Flutter Puzzle Hack",
+      "issuer": "Flutter Devs",
+      "issueDate": "Apr 2022",
+      "credentialId": "50023562",
+      "category": "Mobile Development",
+      "description": "Recognition for participating in Flutter Puzzle Hack challenge, demonstrating advanced Flutter development skills and creative problem-solving.",
+      "skills": [
+        "Flutter",
+        "Problem Solving",
+        "Creative Development",
+        "Hackathon"
+      ],
+      "imageUrl": "assets/certifications/Puzzle Hack Certificate.png",
+      "certificationUrl": "https://www.credential.net/22a6f37d-57bf-4d0b-85ec-25b563f9e01e#acc.UMewO5Pp"
+    },
+    {
+      "title": "DevRel MENA Training of Trainers",
+      "issuer": "Google Developer Relations",
+      "issueDate": "Feb 2019",
+      "credentialId": "",
+      "category": "Developer Relations",
+      "description": "Training of Trainers certification for Developer Relations in the MENA region, focusing on community building, technical evangelism, and developer education.",
+      "skills": [
+        "Developer Relations",
+        "Community Building",
+        "Technical Training",
+        "MENA Region"
+      ],
+      "imageUrl": "assets/certifications/DevRel MENA Training of Trainers.png"
+    },
+    {
+      "title": "The Data Scientist's Toolbox",
+      "issuer": "Coursera",
+      "issueDate": "May 2018",
+      "credentialId": "SNBZ4UD3DHLX",
+      "category": "Data Science",
+      "description": "Essential tools and methodologies for data science projects and workflows.",
+      "skills": ["Data Science", "R", "Git", "Project Management"],
+      "imageUrl": "assets/certifications/The Data Scientists Toolbox.png",
+      "certificationUrl": "https://www.coursera.org/account/accomplishments/verify/SNBZ4UD3DHLX"
+    },
+    {
+      "title": "Machine Learning Specialization",
+      "issuer": "Coursera",
+      "issueDate": "Jan 2018",
+      "credentialId": "3L62MPF36PD6",
+      "category": "Machine Learning",
+      "description": "Comprehensive machine learning specialization covering supervised learning, unsupervised learning, and neural networks.",
+      "skills": ["Machine Learning", "Python", "TensorFlow", "Neural Networks"],
+      "imageUrl": "assets/certifications/Machine Learning.png",
+      "certificationUrl": "https://www.coursera.org/account/accomplishments/specialization/3L62MPF36PD6"
+    }
+  ],
+  "services": [
+    {
+      "icon": "assets/services/app.png",
+      "name": "Flutter Mobile Development",
+      "description": "Cross-platform mobile app development\n- Native iOS & Android performance\n- Firebase integration\n- Complex UI/UX with animations\n- State management solutions\n- API integrations"
+    },
+    {
+      "icon": "assets/services/ui.png",
+      "name": "UAE Government Services Integration",
+      "description": "Specialized UAE digital services\n- UAE Pass authentication\n- Emirates ID reader integration\n- PapService implementation\n- Government compliance\n- Secure data handling"
+    },
+    {
+      "icon": "assets/services/rapid.png",
+      "name": "Package Development & Publishing",
+      "description": "Flutter package creation for pub.dev\n- Widget utilities\n- Government service integrations\n- Form builders & UI components\n- Community support\n- Documentation & examples"
+    },
+    {
+      "icon": "assets/services/blog.png",
+      "name": "Technical Writing & Mentoring",
+      "description": "Technical content creation\n- Medium articles (260+ followers)\n- Flutter tutorials & guides\n- Team mentoring\n- Best practices documentation\n- Community knowledge sharing"
+    },
+    {
+      "icon": "assets/services/open.png",
+      "name": "Blockchain & Web3 Integration",
+      "description": "Flutter + Blockchain solutions\n- Ethereum DApp development\n- Smart contract integration\n- Web3 wallet connectivity\n- IPFS implementation\n- Cryptocurrency solutions"
+    },
+    {
+      "icon": "assets/services/fiverr.png",
+      "name": "Healthcare & Fintech Solutions",
+      "description": "Specialized industry applications\n- Telemedicine platforms\n- Clinic management systems\n- Payment gateway integration\n- Money transfer applications\n- HIPAA compliance"
+    }
+  ],
+  "packages": [
+    {
+      "name": "widgets_to_image",
+      "version": "1.0.0",
+      "stars": 186,
+      "description": "Convert any Flutter widget to image format",
+      "pubUrl": "https://pub.dev/packages/widgets_to_image",
+      "githubUrl": "https://github.com/MohamedAbd0/widgets_to_image",
+      "downloads": "16.7k",
+      "banner": "assets/packages/widgets_to_image.png"
+    },
+    {
+      "name": "flutter_uae_pass",
+      "version": "1.0.5",
+      "stars": 4,
+      "description": "UAE Pass authentication integration with web platform support",
+      "pubUrl": "https://pub.dev/packages/flutter_uae_pass",
+      "githubUrl": "https://github.com/MohamedAbd0/flutter_uae_pass",
+      "downloads": "1k",
+      "banner": "assets/packages/flutter_uae_pass.png"
+    },
+    {
+      "name": "stroke_text",
+      "version": "1.0.0",
+      "stars": 34,
+      "description": "Add stroke (outline) to Text widgets for enhanced typography",
+      "pubUrl": "https://pub.dev/packages/stroke_text",
+      "githubUrl": "https://github.com/MohamedAbd0/stroke_text",
+      "downloads": "7.8K",
+      "banner": "assets/packages/stroke_text.png"
+    },
+    {
+      "name": "phone_text_field",
+      "version": "1.0.0",
+      "stars": 20,
+      "description": "International phone input field with country code support",
+      "pubUrl": "https://pub.dev/packages/phone_text_field",
+      "githubUrl": "https://github.com/MohamedAbd0/phone_text_field",
+      "downloads": "1.79K",
+      "banner": "assets/packages/phone_text_field.png"
+    },
+    {
+      "name": "time_slot",
+      "version": "1.0.2",
+      "stars": 29,
+      "description": "Time slot creation and management with localization support",
+      "pubUrl": "https://pub.dev/packages/time_slot",
+      "githubUrl": "https://github.com/MohamedAbd0/time_slot",
+      "downloads": "368",
+      "banner": "assets/packages/time_slot.png"
+    },
+    {
+      "name": "time_picker_spinner",
+      "version": "1.0.2",
+      "stars": 10,
+      "description": "Time Picker with spinner instead of a default material time picker. This widget works with 12 or 24 hour format and custom interval mode, and this package allow localization ar and en.",
+      "pubUrl": "https://pub.dev/packages/time_picker_spinner",
+      "githubUrl": "https://github.com/MohamedAbd0/time_picker_spinner",
+      "downloads": "1.79K",
+      "banner": "assets/packages/time_picker_spinner.png"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Dscale.io",
+      "position": "Senior Flutter Developer",
+      "period": "Sep 2023 - Present",
+      "location": "Dubai, UAE",
+      "description": "Developing 'Ayshei' e-commerce and auction platform with Flutter web vendor portal. Building 'XFI Send Money' fintech application for secure money transfers.",
+      "technologies": [
+        "Flutter",
+        "Firebase",
+        "Stripe",
+        "Web",
+        "Supabase",
+        "LiveKit",
+        "Analytics",
+        "Fintech"
+      ],
+      "responsibilities": [
+        "Collaborate on Flutter development for Ayshei and XFI Send Money applications",
+        "Implement complex UI/UX designs with animations",
+        "Collaborate with cross-functional teams to deliver high-quality products"
+      ]
+    },
+    {
+      "company": "Platform Technologies FZE",
+      "position": "Senior Flutter Developer",
+      "period": "Jan 2023 - Sep 2023",
+      "location": "Abu Dhabi, UAE",
+      "description": "Developed Flutter Web-based Appointment Booking System integrated with Clinic Pro. Implemented Emirates ID reader integration using PapService. Built telemedicine features using Agora with AWS cloud storage.",
+      "technologies": ["Flutter", "Web", "PapService", "Agora", "AWS"],
+      "responsibilities": [
+        "Developed user-friendly appointment booking interface",
+        "Integrated Emirates ID reader for secure user identification",
+        "Implemented telemedicine features with video calling",
+        "Managed AWS cloud storage for user data and media"
+      ]
+    },
+    {
+      "company": "GoSports Network",
+      "position": "Senior Flutter Developer",
+      "period": "Jun 2022 - Sep 2023",
+      "location": "El Mansoura, Egypt (Hybrid)",
+      "description": "Collaborated on Flutter development team for sports management platform. Developed web-based subscription management system with Stripe Gateway integration. Mentored junior developers and established best practices.",
+      "technologies": ["Flutter", "Stripe", "Web", "Management"],
+      "responsibilities": [
+        "Collaborated on development of GoSports management platform",
+        "Implemented subscription management system with Stripe Gateway",
+        "Mentored junior developers and conducted code reviews",
+        "Established best practices for Flutter development"
+      ]
+    },
+    {
+      "company": "GoSports Network",
+      "position": "Flutter Developer",
+      "period": "Dec 2019 - May 2022",
+      "location": "El Mansoura, Egypt (Hybrid)",
+      "description": "Created comprehensive GoSports application for sports academy & club management. Implemented player management, financial systems, and real-time analytics using Firebase suite and SQLite.",
+      "technologies": [
+        "Flutter",
+        "Firebase",
+        "SQLite",
+        "Analytics",
+        "In-App Purchases"
+      ],
+      "responsibilities": [
+        "Developed GoSports application for sports management",
+        "Implemented player management and financial tracking systems",
+        "Integrated Firebase for real-time data synchronization",
+        "Utilized SQLite for local data storage and offline capabilities",
+        "Implemented subscription management system with In-App Purchases"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "title": "Flutter x Web3: How I Built My First DApp on Ethereum",
+      "platform": "Medium",
+      "url": "https://medium.com/@mohamed-abdo",
+      "description": "Complete guide to blockchain integration with Flutter applications"
+    },
+    {
+      "title": "Understanding Threads and Isolates in Flutter",
+      "platform": "Medium",
+      "url": "https://medium.com/@mohamed-abdo",
+      "description": "Concurrency and performance optimization in Flutter development"
+    },
+    {
+      "title": "Integrating UAE PASS into a Flutter application",
+      "platform": "Medium",
+      "url": "https://medium.com/@mohamed-abdo",
+      "description": "Government digital identity integration for UAE applications"
+    },
+    {
+      "title": "Understanding Obfuscation in Flutter",
+      "platform": "Medium",
+      "url": "https://medium.com/@mohamed-abdo",
+      "description": "App security and reverse engineering prevention techniques"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "14K+ LinkedIn Followers",
+      "description": "Recognized thought leader in Flutter development community"
+    },
+    {
+      "title": "Verified pub.dev Publisher",
+      "description": "8 published packages serving thousands of developers globally"
+    },
+    {
+      "title": "Arctic Code Vault Contributor",
+      "description": "Code preserved for future generations in GitHub Arctic vault"
+    },
+    {
+      "title": "GitHub Developer Program Member",
+      "description": "Community recognition with Pull Shark and Quickdraw achievements"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Ayshei - E-commerce & Auction Platform",
+      "iconUrl": "assets/projects/flutter.png",
+      "bannerUrl": "assets/projects/flutter.png",
+      "description": "Cross-platform e-commerce and auction application with Flutter web vendor portal for UAE market. Features product catalog, auction system, and payment integration.",
+      "technologies": ["Flutter", "Firebase", "Stripe", "Web"]
+    },
+    {
+      "title": "XFI Send Money - Fintech App",
+      "iconUrl": "assets/projects/android.png",
+      "bannerUrl": "assets/projects/android.png",
+      "description": "Secure money transfer and financial services application built with Flutter. Features banking-grade security and compliance for MENA region.",
+      "technologies": ["Flutter", "Fintech", "Security", "API"]
+    },
+    {
+      "title": "UAE Pass Flutter Plugin",
+      "iconUrl": "assets/projects/flutter.png",
+      "bannerUrl": "assets/projects/flutter.png",
+      "description": "Official UAE Pass authentication plugin for Flutter with web platform support. Used by government and enterprise applications across UAE.",
+      "technologies": ["Flutter", "UAE Pass", "Government", "Web"]
+    },
+    {
+      "title": "Clinic Pro Integration System",
+      "iconUrl": "assets/projects/medkit.png",
+      "bannerUrl": "assets/projects/medkitB.png",
+      "description": "Flutter Web-based appointment booking system integrated with Clinic Pro. Features Emirates ID reader integration and telemedicine capabilities.",
+      "technologies": ["Flutter Web", "Healthcare", "Agora", "AWS"]
+    },
+    {
+      "title": "GoSports Management Platform",
+      "iconUrl": "assets/projects/android.png",
+      "bannerUrl": "assets/projects/android.png",
+      "description": "Comprehensive sports academy and club management application. Features player management, financial tracking, and subscription systems.",
+      "technologies": ["Flutter", "Firebase", "Stripe", "Analytics"]
+    },
+    {
+      "title": "Flutter DApp on Ethereum",
+      "iconUrl": "assets/projects/flutter.png",
+      "bannerUrl": "assets/projects/flutter.png",
+      "description": "First Flutter decentralized application integrated with Ethereum blockchain. Features smart contracts, Web3 wallet connectivity, and IPFS storage.",
+      "technologies": ["Flutter", "Ethereum", "Solidity", "Web3"]
+    }
+  ],
+  "contact": [
+    {
+      "param": "address",
+      "value": "Dubai, United Arab Emirates"
+    },
+    {
+      "param": "phone",
+      "value": "+971556074080"
+    },
+    {
+      "param": "email",
+      "value": "mohamed_abdo95@outlook.com"
+    }
+  ],
+  "resume_url": "https://drive.google.com/file/d/1fmhYynchU5ATHauyKPy4sNY-O0xbig7K/view?usp=sharing"
+}

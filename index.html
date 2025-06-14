@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <!--
+  <head>
+    <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
 
@@ -14,102 +13,214 @@
 
 
   -->
-  <base href="/"> 
-  <!-- <base href="/"> -->
+    <base href="/" />
+    <!-- <base href="/"> -->
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A Selft taught flutter developer, technical writer and open source contributor.">
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A Self taught flutter developer, technical writer and open source contributor."
+    />
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="folio">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    <!-- Performance optimizations -->
+    <meta name="theme-color" content="#C28304" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Mohamed Abdo Portfolio" />
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png" />
+    <!-- Preload critical resources -->
+    <link
+      rel="preload"
+      href="fonts/montserrat/montserrat.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/poppins/Poppins-Regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link rel="preload" href="assets/photos/black-white.png" as="image" />
+    <link rel="preload" href="assets/photos/colored.png" as="image" />
+    <link rel="preload" href="assets/data.json" as="fetch" crossorigin />
 
-  <title>Mohamed Abdo</title>
-  <link rel="manifest" href="manifest.json">
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//drive.google.com" />
+    <link rel="dns-prefetch" href="//upload.wikimedia.org" />
+    <link rel="dns-prefetch" href="//cdn-icons-png.flaticon.com" />
 
-  <style>
-    .lds-ripple {
-      display: inline-block;
-      position: relative;
-      width: 80px;
-      height: 80px;
-    }
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="folio" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
 
-    .lds-ripple div {
-      background-color: #C28304;
-      position: absolute;
-      border: 4px solid #fff;
-      opacity: 1;
-      border-radius: 50%;
-      animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
-    }
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
 
-    .lds-ripple div:nth-child(2) {
-      animation-delay: -0.5s;
-    }
+    <title>Mohamed Abdo</title>
+    <link rel="manifest" href="manifest.json" />
 
-    @keyframes lds-ripple {
-      0% {
-        top: 36px;
-        left: 36px;
-        width: 0;
-        height: 0;
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        overflow: hidden;
+      }
+
+      .loading-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        z-index: 9999;
+      }
+
+      .loading-content {
+        text-align: center;
+        color: white;
+      }
+
+      .lds-ripple {
+        display: inline-block;
+        position: relative;
+        width: 80px;
+        height: 80px;
+        margin-bottom: 20px;
+      }
+
+      .lds-ripple div {
+        background-color: #c28304;
+        position: absolute;
+        border: 4px solid #fff;
         opacity: 1;
+        border-radius: 50%;
+        animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
       }
 
-      100% {
-        top: 0px;
-        left: 0px;
-        width: 72px;
-        height: 72px;
-        opacity: 0;
+      .lds-ripple div:nth-child(2) {
+        animation-delay: -0.5s;
       }
-    }
 
-    .container {
-      height: 100%;
-    }
+      @keyframes lds-ripple {
+        0% {
+          top: 36px;
+          left: 36px;
+          width: 0;
+          height: 0;
+          opacity: 1;
+        }
 
-    .center {
-      margin: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-    }
-  </style>
+        100% {
+          top: 0px;
+          left: 0px;
+          width: 72px;
+          height: 72px;
+          opacity: 0;
+        }
+      }
 
-</head>
+      .loading-text {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        animation: pulse 2s ease-in-out infinite;
+      }
 
-<body>
+      .loading-subtitle {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        opacity: 0.8;
+        animation: fadeInOut 3s ease-in-out infinite;
+      }
 
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.7;
+        }
+      }
 
-  <div class="container">
-    <div class="center">
-      <div class="lds-ripple">
-        <div></div>
-        <div></div>
+      @keyframes fadeInOut {
+        0%,
+        100% {
+          opacity: 0.8;
+        }
+        50% {
+          opacity: 0.4;
+        }
+      }
+
+      .container {
+        height: 100%;
+      }
+
+      .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="loading-container" id="loading">
+      <div class="loading-content">
+        <div class="lds-ripple">
+          <div></div>
+          <div></div>
+        </div>
+        <div class="loading-text">Mohamed Abdo</div>
+        <div class="loading-subtitle">Flutter Developer & Tech Enthusiast</div>
       </div>
     </div>
-  </div>
-  <!-- This script installs service_worker.js to provide PWA functionality to
+
+    <div id="app-container" style="display: none">
+      <!-- Flutter app will be rendered here -->
+    </div>
+
+    <script>
+      // Hide loading screen when Flutter is ready
+      window.addEventListener("flutter-first-frame", function () {
+        document.getElementById("loading").style.display = "none";
+        document.getElementById("app-container").style.display = "block";
+      });
+
+      // Fallback: Hide loading screen after 10 seconds
+      setTimeout(function () {
+        document.getElementById("loading").style.display = "none";
+        document.getElementById("app-container").style.display = "block";
+      }, 10000);
+    </script>
+    <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=763474926');
-      });
-    }
-  </script>
-  <script src="main.dart.js" type="application/javascript"></script>
-</body>
-
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("flutter-first-frame", function () {
+          navigator.serviceWorker.register("flutter_service_worker.js");
+        });
+      }
+    </script>
+    <script src="main.dart.js" type="application/javascript"></script>
+  </body>
 </html>
