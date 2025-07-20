@@ -3,11 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "12a5ce8c8df4959f26bc60b5883d23eb",
+const RESOURCES = {"flutter_bootstrap.js": "6b7afa409e5607bf236a3987a6b05f3a",
 "version.json": "009c9e65172e010890f7f65fde438006",
 "index.html": "8ed0616fef1905d8af1f4f4175e4dc7d",
 "/": "8ed0616fef1905d8af1f4f4175e4dc7d",
-"main.dart.js": "7494ef423748d6e8c62bffe3ef02e139",
+"main.dart.js": "f40e067474d310787639b4c607f313b5",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
 "favicon1.png": "61b493df9635f221d909421e8769acb0",
 "favicon.png": "4eae99fa2a7baa29cdd5c94434f9b46b",
@@ -49,7 +49,7 @@ const RESOURCES = {"flutter_bootstrap.js": "12a5ce8c8df4959f26bc60b5883d23eb",
 "assets/assets/projects/quranB.png": "3cf070457b64cf93d11ad2073bff88e2",
 "assets/assets/projects/snackbar.png": "426d7d3320b4207468e1dec6322b3b08",
 "assets/assets/projects/covidB.png": "1884ac58a9de5d81e995f1e46e4b7398",
-"assets/assets/data.json": "5b84416909896aeddad939c4a00aabf7",
+"assets/assets/data.json": "c93ab0b51a53ee2209c5afd53662deb6",
 "assets/assets/work/st.png": "0957bd1682c5a518247a1844656c0f7e",
 "assets/assets/work/cui.png": "b5608c4d79345ca955f990a24a454554",
 "assets/assets/work/dsc.png": "bd954ceeeb42b91899ebe1c3b0d79850",
